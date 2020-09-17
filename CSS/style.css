@@ -22,6 +22,9 @@ body  {
     margin-left: 0;
 }
 
+.image-mockup {
+    margin-top: -50px;
+}
 
 .link-button {
     width: 80%;
