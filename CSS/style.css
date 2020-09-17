@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body  {
+    background-color:#EAF0F1;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+    
+}
+
+.hero {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.link-button {
+    width: 80%;
+    padding: 10px 30px;
+    margin: 0 auto;
+    background-color: #6C63FF;
+    border-radius: 50px;
+}
+
+.link-button:hover {
+    background-color: #1e13e4;
+}
+
+.button{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    color:#FFB9B9 ;
+}
+
+footer{
+    height: 60vh;
+    background-color: #0c122c;
+    background-image: url(../Images/bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.footer-navigation a {
+    color: rgb(228, 213, 213);
+    letter-spacing: 2px;
+}
+.footer-navigation a:hover{
+    font-weight:bolder;
+}
+
+.footer-social-links ion-icon{
+    color: #EAF0F1;
+    font-size: 50px;
+    padding: 10px;
+    opacity: .8;
+    
+}
+
+.footer-social-links a:hover{
+    text-decoration: none;
+}
